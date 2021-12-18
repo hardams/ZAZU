@@ -121,15 +121,15 @@ def log_sel():
 	elif sel =="2" or sel =="02":
 		ex_id()
 	elif sel =="3" or sel =="03":
-		subprocess.check_output(["am", "start", "https://wa.me/+2348069472717"])
+		subprocess.check_output(["am", "start", "https://wa.me/+2349032921686"])
 		main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		os.system('xdg-open https://wa.me/+2348069472717')
+		os.system('xdg-open https://wa.me/+2349032921686')
 		main()
 	elif sel =="5" or sel =="05":
 		import os
 		try:
-			os.system("git clone https://github.com/ANONYMOUS ADAMS/Bini")
+			os.system("git clone https://github.com/Hardams/Bini")
 			os.system("rm -rf ZAZU")
 			os.system("cp -f ZAZU/ZAZU.py \\.")
 			os.system("rm -rf ZAZU")
