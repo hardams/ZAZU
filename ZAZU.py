@@ -41,7 +41,7 @@ agents = [
 					"Mozilla/5.0 (Linux; Android 7.1.1; ASUS Chromebook Flip C302 Build/R70-11021.56.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Safari/537.36 [FB_IAB/FB4A;FBAV/198.0.0.53.101;]"
 				  ]
 				
-header = {"user-agent": '[Mozilla/5.0 (Linux; Android 9; Lenovo TB-8505F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.92 Mobile Safari/537.36;]',
+header = {"user-agent": '[Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36;]',
 					  "x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
 					  "x-fb-sim-hni": str(random.randint(20000, 40000)),
 					  "x-fb-net-hni": str(random.randint(20000, 40000)),
